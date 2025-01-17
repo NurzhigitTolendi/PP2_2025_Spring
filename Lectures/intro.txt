@@ -1,0 +1,12 @@
+Git installation:
+
+For Mac:
+- Open terminal (terminal.app)
+- type "type"
+- if git is not installed, you will be prompted to do it 
+- installation finished
+
+For Windows:
+- download git installer from official site
+- choose the default editor - pick Nano
+- adjust the name of the initial branch - choose "Override default name"

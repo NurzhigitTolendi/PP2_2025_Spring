@@ -1,4 +1,2 @@
-#This is a comment
-print("Hello, World!")
-
-print("Hello, World!") #This is a comment
+if 5 > 2:
+  print("Five is greater than two!")

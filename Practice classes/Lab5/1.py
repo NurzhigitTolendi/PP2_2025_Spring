@@ -4,8 +4,7 @@ def match_pattern(text):
     pattern = r'\b\w*[Aa]\w*[Bb]*\w*\b'
     return re.findall(pattern, text)
 
-# Текст из чека
-receipt_text = """
+text_to_search = """
 ДУБЛИКАТ
 Филиал ТОО EUROPHARMA Астана
 БИН 080841000761
@@ -156,6 +155,5 @@ Bio World (HYDRO THERAPY) Гель-муссдля умывания с гиалу
 WEBKASSA.KZ
 """
 
-# Поиск в тексте
-matches = match_pattern(receipt_text)
+matches = match_pattern(text_to_search)
 print(matches)

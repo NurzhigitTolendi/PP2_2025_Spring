@@ -1,0 +1,6 @@
+To install pygame:
+- open the terminal
+- in the terminal, run:
+    - pip install pygame
+    or
+    - pip3 install pygame

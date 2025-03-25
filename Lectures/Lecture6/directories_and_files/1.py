@@ -6,5 +6,7 @@ path = './' # relative path
 
 contents = os.listdir(path)
 
+print(contents)
+
 for element in contents:
     print(element)

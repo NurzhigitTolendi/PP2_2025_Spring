@@ -7,9 +7,9 @@ import psycopg2
 # Connect to the database by creating a connection object
 conn = psycopg2.connect(
     host='localhost', 
-    dbname='testbase', 
+    dbname='PP2', 
     user='postgres', 
-    password='admin'
+    password='1234'
     )
 
 # Create a cursor to work with the database
@@ -33,7 +33,7 @@ conn.commit()
 
 import csv
 
-filename = "students1.csv"
+filename = "students.csv"
 
 with open(filename, "r") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
